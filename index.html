@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD5 Live</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Live MD5 Hasher!</h1>
+            <p class="lead">Calculate the MD5 hash of a string live</p>
+            <hr class="my-4">
+        </div>
+        <div class="input-group input-group-lg mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-string1">Your Text</span>
+            </div>
+            <input id="string-input" type="text" class="form-control" placeholder="Your String" aria-label="string" aria-describedby="basic-string1">
+        </div>
+        <div class="input-group input-group-lg mb-3">
+            <input id="checksum" type="text" class="form-control" placeholder="MD5 Checksum" aria-label="string" disabled>
+        </div>
+        <div class="input-group input-group-lg mb-3">
+            <input id="compare-input" type="text" class="form-control" placeholder="String to compare against" aria-label="Compare String">
+        </div>
+        <div class="input-group input-group-lg mb-3">
+            <input id="compare" type="text" class="form-control" placeholder="" aria-label="Check" disabled>
+        </div>
+        <div class="input-group input-group-lg mb-3">
+            <textarea name="Scrapbook" id="scrapbook"  class="form-control"></textarea>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="script.js"></script>
+</footer>
+</html>
